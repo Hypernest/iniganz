@@ -1,82 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kaushan+Script&family=Noto+Sans+JP:wght@400;700&family=Rubik+Spray+Paint&display=swap');
+body {
+  min-height: 3000px;
+}
+/* .bgImage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('img/logo/maze.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bgImage::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+} */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f4ff7a;
 
-* {
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
 }
-header {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header::after{
-    content: "";
-    width: 100%;
-    height: 100vh;
-    background: #000000;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-}
-
-#bg-video{
-    width: 100%;
-    height: 100vh;
-    position:absolute;
-    object-fit: cover;
+#about {
+  background-color: #f3f4f5;
 }
 
-.video-info{
-    z-index: 99;
-    position:relative;
-    color: #ffffff;
-    text-align: center;
-    font-family: "Nato Sans JP", sans-serif;
+#blog {
+  background-color: #f4ff7a;
+}
+#menu {
+  background-color: #59fee2;
 }
 
-.video-info h2{
-    font-family: "Kaushan Script", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    letter-spacing: 2px;
+.display-4 {
+  font-family: "Concert One", cursive;
+}
+.lead {
+  font-family: "Rubik Spray Paint", cursive;
+}
+.footer {
+  background-color: #c4ff3b;
 }
 
-.video-info h1{
-    font-size: 3.5rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.video-info p {
-    margin-bottom: 2rem;
+section {
+  padding-top: 5rem;
 }
 
-.btn {
-    padding: 0.8rem 1.5rem;
-    background: #16a596;
-    text-decoration: none;
-    color: #ffffff;
-    border-radius: 3px;
-    font-size: 14px;
-    transition : 0.3s
+.blog {
+  padding: 1rem;
 }
-.btn:hover{
-    background: #51ffee;
+.blog-bawah {
+  padding : 3rem;
 }
-
-@media screen and (max-width: 768px) {
-    .video-info {
-        padding: 1rem;
-
-    }
-    .video-info h2 {
-        font-size: 1.5rem;
-    }
-
-    .video-info h1 {
-        font-size: 2.rem;
-    }
+.blog-atas {
+  padding: 3rem;
 }
+/*
+ p {
+  color:  ;
+} 
+*/
